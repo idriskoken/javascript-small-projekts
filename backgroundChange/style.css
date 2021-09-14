@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+}
+
+#btn {
+  font-size: 16px;
+  color: aliceblue;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  border: none;
+  background-color: blue;
+  transition: transform 0.1s linear;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+button:active {
+  box-shadow: 0;
+  transform: translate(2px, 2px);
+  color: inherit;
+}

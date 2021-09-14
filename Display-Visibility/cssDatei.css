@@ -1,0 +1,15 @@
+
+.main {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  margin: 4px;
+  padding: 6px;
+}

@@ -1,0 +1,19 @@
+#panel,
+#flip {
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(0, 255, 128);
+  border: solid 1px #a6d8a8;
+  margin: auto;
+  cursor: pointer;
+}
+
+#panel {
+  display: none;
+}
+
+#flip {
+  display: flex;
+  justify-content: space-around;
+}

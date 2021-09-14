@@ -1,0 +1,30 @@
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Background color change</title>
+    <link rel="stylesheet" href="./cssDatei.css">
+    
+  </head>
+  <body id="bd">
+    <h3>Difference between display: none and visibility: hidden</h3>
+    <p><strong>visibility: hide</strong> hides the element, but space of it there.</p>
+    <p><strong>display: none</strong> removes the element from the document with its space.</p>
+    <div class="main">
+      <div class="box" id="box1">Box 1<br>
+        <img src="" alt="img1">
+        <button onclick="removeElement()">Remove</button>
+      </div>
+      <div class="box" id="box2">Box 2<br>
+       <img src="" alt="img1">
+        <button onclick="changeVisibility()">Hide</button>
+      </div>
+      <div class="box" id="box3">Box 3<br>
+        <img src="" alt="img1">
+        <button onclick="resetElement()">Reset All</button>
+      </div>
+    </div>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
